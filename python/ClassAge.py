@@ -3,7 +3,7 @@ import re
 # Age indicators that follow ages
 age_pre = ("age")
 # Age indicators that precede ages
-age_post = ("year old",'YEAR', "y/o", "Y/O",'YR','yr', "y\.o\.", "yo", "y", 'years','YEARS',"years old", "year-old", "-year-old", "years-old", "-years-old", "years of age", "yrs of age")
+age_post = ('year','YEAR', "y/o",'YO', "Y/O",'YR','yr', "y\.o\.", 'yo', 'y', 'y.o.','y.o','years','YEARS',"years old", "year-old", "-year-old", "years-old", "-years-old", "years of age", "yrs of age")
 
 def check_for_age(patient,note,chunk, output_handle):
     """

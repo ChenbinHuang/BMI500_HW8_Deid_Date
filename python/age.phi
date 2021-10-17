@@ -27,6 +27,7 @@ Patient 1	Note 24
 Patient 1	Note 25
 Patient 1	Note 26
 Patient 1	Note 27
+58
 Patient 1	Note 28
 Patient 1	Note 29
 Patient 1	Note 30
@@ -53,6 +54,7 @@ Patient 1	Note 50
 Patient 1	Note 51
 Patient 1	Note 52
 Patient 1	Note 53
+58
 Patient 1	Note 54
 58
 Patient 1	Note 55
@@ -100,6 +102,7 @@ Patient 1	Note 96
 Patient 1	Note 97
 Patient 2	Note 1
 Patient 2	Note 2
+74
 Patient 2	Note 3
 Patient 2	Note 4
 Patient 2	Note 5
@@ -115,7 +118,9 @@ Patient 2	Note 14
 Patient 2	Note 15
 Patient 3	Note 1
 Patient 3	Note 2
+67
 Patient 3	Note 3
+67
 Patient 3	Note 4
 Patient 3	Note 5
 Patient 3	Note 6
@@ -168,6 +173,7 @@ Patient 4	Note 1
 Patient 4	Note 2
 Patient 5	Note 1
 Patient 5	Note 2
+77
 Patient 5	Note 3
 Patient 5	Note 4
 Patient 5	Note 5
@@ -200,6 +206,7 @@ Patient 5	Note 31
 Patient 5	Note 32
 Patient 5	Note 33
 Patient 6	Note 1
+79
 Patient 6	Note 2
 Patient 6	Note 3
 Patient 7	Note 1
@@ -227,6 +234,7 @@ Patient 11	Note 1
 83
 Patient 11	Note 2
 Patient 11	Note 3
+83
 Patient 11	Note 4
 Patient 11	Note 5
 Patient 12	Note 1
@@ -243,6 +251,7 @@ Patient 13	Note 10
 Patient 13	Note 11
 Patient 13	Note 12
 Patient 14	Note 1
+75
 Patient 14	Note 2
 Patient 14	Note 3
 Patient 14	Note 4
@@ -251,6 +260,7 @@ Patient 14	Note 6
 Patient 14	Note 7
 Patient 14	Note 8
 Patient 14	Note 9
+75
 Patient 14	Note 10
 Patient 14	Note 11
 Patient 14	Note 12
@@ -258,6 +268,7 @@ Patient 14	Note 13
 Patient 14	Note 14
 Patient 14	Note 15
 Patient 15	Note 1
+46
 Patient 15	Note 2
 Patient 15	Note 3
 Patient 15	Note 4
@@ -624,6 +635,7 @@ Patient 19	Note 14
 Patient 19	Note 15
 Patient 19	Note 16
 Patient 20	Note 1
+80
 Patient 20	Note 2
 Patient 20	Note 3
 Patient 20	Note 4
@@ -850,6 +862,7 @@ Patient 27	Note 1
 Patient 27	Note 2
 Patient 27	Note 3
 Patient 27	Note 4
+78
 Patient 27	Note 5
 Patient 27	Note 6
 Patient 27	Note 7
@@ -935,6 +948,7 @@ Patient 29	Note 16
 Patient 29	Note 17
 Patient 29	Note 18
 Patient 29	Note 19
+59
 Patient 29	Note 20
 Patient 29	Note 21
 Patient 30	Note 1
@@ -978,6 +992,7 @@ Patient 33	Note 2
 Patient 33	Note 3
 Patient 33	Note 4
 Patient 33	Note 5
+63
 Patient 33	Note 6
 Patient 33	Note 7
 Patient 33	Note 8
@@ -994,6 +1009,7 @@ Patient 34	Note 1
 Patient 34	Note 2
 Patient 34	Note 3
 Patient 34	Note 4
+62
 Patient 34	Note 5
 Patient 34	Note 6
 Patient 35	Note 1
@@ -1085,6 +1101,7 @@ Patient 39	Note 47
 Patient 39	Note 48
 Patient 39	Note 49
 Patient 40	Note 1
+71
 Patient 40	Note 2
 Patient 40	Note 3
 Patient 40	Note 4
@@ -1115,6 +1132,7 @@ Patient 42	Note 1
 Patient 42	Note 2
 84
 Patient 43	Note 1
+80
 Patient 43	Note 2
 Patient 43	Note 3
 Patient 43	Note 4
@@ -1122,6 +1140,7 @@ Patient 43	Note 5
 Patient 43	Note 6
 Patient 43	Note 7
 Patient 44	Note 1
+82
 Patient 44	Note 2
 82
 Patient 44	Note 3
@@ -1159,15 +1178,18 @@ Patient 45	Note 19
 Patient 45	Note 20
 Patient 45	Note 21
 Patient 45	Note 22
+83
 Patient 45	Note 23
 Patient 45	Note 24
 Patient 45	Note 25
 Patient 45	Note 26
 Patient 46	Note 1
+87
 Patient 46	Note 2
 Patient 46	Note 3
 Patient 47	Note 1
 Patient 47	Note 2
+89
 Patient 47	Note 3
 Patient 47	Note 4
 Patient 47	Note 5
@@ -1175,6 +1197,7 @@ Patient 47	Note 6
 Patient 47	Note 7
 Patient 47	Note 8
 Patient 48	Note 1
+64
 Patient 48	Note 2
 Patient 48	Note 3
 Patient 49	Note 1
@@ -1199,6 +1222,7 @@ Patient 49	Note 17
 Patient 49	Note 18
 Patient 49	Note 19
 Patient 49	Note 20
+89
 Patient 49	Note 21
 Patient 49	Note 22
 Patient 49	Note 23
@@ -1320,7 +1344,9 @@ Patient 54	Note 5
 Patient 54	Note 6
 Patient 54	Note 7
 Patient 55	Note 1
+59
 Patient 55	Note 2
+59
 Patient 56	Note 1
 Patient 56	Note 2
 Patient 56	Note 3
@@ -1365,6 +1391,7 @@ Patient 60	Note 1
 Patient 60	Note 2
 70
 Patient 60	Note 3
+70
 Patient 60	Note 4
 Patient 60	Note 5
 Patient 60	Note 6
@@ -1481,6 +1508,7 @@ Patient 71	Note 5
 Patient 71	Note 6
 Patient 71	Note 7
 Patient 72	Note 1
+77
 Patient 72	Note 2
 Patient 72	Note 3
 Patient 72	Note 4
@@ -1563,6 +1591,7 @@ Patient 73	Note 68
 Patient 73	Note 69
 Patient 73	Note 70
 Patient 73	Note 71
+30
 Patient 73	Note 72
 Patient 73	Note 73
 Patient 73	Note 74
@@ -1720,6 +1749,7 @@ Patient 83	Note 15
 Patient 83	Note 16
 Patient 83	Note 17
 Patient 84	Note 1
+52
 Patient 84	Note 2
 Patient 84	Note 3
 Patient 84	Note 4
@@ -1928,6 +1958,7 @@ Patient 108	Note 12
 Patient 108	Note 13
 Patient 108	Note 14
 Patient 109	Note 1
+53
 Patient 109	Note 2
 Patient 110	Note 1
 Patient 110	Note 2
@@ -1940,6 +1971,7 @@ Patient 110	Note 8
 Patient 110	Note 9
 Patient 110	Note 10
 Patient 111	Note 1
+82
 Patient 111	Note 2
 Patient 111	Note 3
 Patient 111	Note 4
@@ -2483,6 +2515,7 @@ Patient 158	Note 8
 Patient 159	Note 1
 Patient 159	Note 2
 Patient 160	Note 1
+84
 Patient 160	Note 2
 Patient 160	Note 3
 Patient 160	Note 4
