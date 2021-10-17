@@ -1,4 +1,4 @@
-# deid.py was editied to include all the different catagories in PHI, which after the development of the de-identification catagories can be helpful. 
+# deidclass.py was editied to include all the different catagories in PHI, which after the development of the de-identification catagories can be helpful. 
 # The Telephone code was moved to different script under the title ClassPhone. The patient age de-id script is under the title of ClassAge.
 
 import re
