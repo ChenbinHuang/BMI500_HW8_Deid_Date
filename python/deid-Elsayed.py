@@ -27,7 +27,6 @@ def check_for_age(patient,note,chunk, output_handle):
     """
     output_handle.write('Patient {}\tNote {}\n'.format(patient,note))
     list_of_words = chunk.split()
-    offset=27
 # the following is a for loop to look for some age indicators/key words in the texts to determine the patient age. Some of these indicators can be before "age_pre" or after "age_post"
     for x in age_pre:
         if x in list_of_words:
@@ -55,7 +54,7 @@ def check_for_age(patient,note,chunk, output_handle):
                 output_handle.write(post_word+'\n')
 
 
-def deid_age(text_path='id.text', output_path='age.phi'):
+def deid_age(text_path= 'id.text', output_path = 'age.phi'):
     """
     Inputs: 
         - text_path: path to the file containing patient records
@@ -64,16 +63,33 @@ def deid_age(text_path='id.text', output_path='age.phi'):
     Outputs:
         for each patient note, the output file will start by a line declaring the note in the format of:
             Patient X Note Y
-        then for every patient age found, it will have another line with the patient age.
-        If patient age is not detected in the chunk, only the first line (Patient X Note Y) is printed to the output.
+        then for each phone number found, it will have another line in the format of:
+            start start end
+        where the start is the start position of the detected phone number string, and end is the detected
+        end position of the string both relative to the start of the patient note.
+        If there is no phone number detected in the patient note, only the first line (Patient X Note Y) is printed
+        to the output
     Screen Display:
-        Each patient's age detected will be displayed on the screen 
+        For each phone number detected, the following information will be displayed on the screen for debugging purposes 
+        (these will not be written to the output file):
+            start end phone_number
+        where `start` is the start position of the detected phone number string, and `end` is the detected end position of the string
+        both relative to the start of patient note.
     
     """
+    # start of each note has the patter: START_OF_RECORD=PATIENT||||NOTE||||
+    # where PATIENT is the patient number and NOTE is the note number.
     start_of_record_pattern = '^start_of_record=(\d+)\|\|\|\|(\d+)\|\|\|\|$'
+
+    # end of each note has the patter: ||||END_OF_RECORD
     end_of_record_pattern = '\|\|\|\|END_OF_RECORD$'
+
+    # open the output file just once to save time on the time intensive IO
     with open(output_path,'w+') as output_file:
         with open(text_path) as text:
+            # initilize an empty chunk. Go through the input file line by line
+            # whenever we see the start_of_record pattern, note patient and note numbers and start 
+            # adding everything to the 'chunk' until we see the end_of_record.
             chunk = ''
             for line in text:
                 record_start = re.findall(start_of_record_pattern,line,flags=re.IGNORECASE)
@@ -81,13 +97,17 @@ def deid_age(text_path='id.text', output_path='age.phi'):
                     patient, note = record_start[0]
                 chunk += line
 
+                # check to see if we have seen the end of one note
                 record_end = re.findall(end_of_record_pattern, line,flags=re.IGNORECASE)
+
                 if len(record_end):
+                    # Now we have a full patient note stored in `chunk`, along with patient numerb and note number
+                    # pass all to check_for_phone to find any phone numbers in note.
                     check_for_age(patient,note,chunk.strip(), output_file)
-                    chunk = ''
                     
+                    # initialize the chunk for the next note to be read
+                    chunk = ''
+                
 if __name__== "__main__":
-        
     
-    
-    deid_age(sys.argv[1], sys.argv[2]) 
+    deid_age(sys.argv[1], sys.argv[2])
