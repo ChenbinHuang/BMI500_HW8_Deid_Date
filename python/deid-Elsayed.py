@@ -1,5 +1,6 @@
 # deid-ElSayed.py include patient age de-identification 
-# The Telephone code was moved to different script under the title ClassPhone. The patient age de-id script is under the title of ClassAge.
+# deid.py was editied to run multiple de-identification catagories for now the phone de-identification and age de-identification.
+# The phone de-ide code was moved to different script under the title ClassPhone. The patient age de-id script is under the title of ClassAge and the new deid code is called deidclass.py
 
 import re
 import sys
