@@ -1,9 +1,10 @@
 # deidclass.py was editied to include all the different catagories in PHI, which after the development of the de-identification catagories can be helpful. 
 # The Telephone code was moved to different script under the title ClassPhone. The patient age de-id script is under the title of ClassAge.
+# The same age de-identification code was also saved under deid-retta-elsayed for easier access. 
 
 import re
 import sys
-from ClassAge import deid_age
+from deid_retta_elsayed import deid_age
 from ClassPhone import deid_phone
 # The following function ask the user to choose a number corsponded to the catagory/class of data to de-identfy. After the number was chosen the result either the
 # ClassPhone or the ClassAge or both will run and record the data to age.phi. 
@@ -22,7 +23,7 @@ def instructions():
         '10. Age(underDEV)\n',
         '11. Other(underDEV)\n',
         '12. All(underDEV)\n',
-        'select the one that you want to de-identification?'
+        'select the PHI category to de-identify?'
     )
     x = input('')
     return x
