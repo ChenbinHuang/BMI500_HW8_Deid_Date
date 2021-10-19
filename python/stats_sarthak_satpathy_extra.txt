@@ -1,0 +1,19 @@
+Examining "Date" category for output of deid_sarthak_satpathy_main.py script : date_main.phi
+
+==========================                                                                                                                    
+                                                                                                                                              
+Num of true positives = 428                                                                                                                   
+                                                                                                                                              
+Num of false positives = 689                                                                                                                  
+                                                                                                                                              
+Num of false negatives = 54                                                                                                                   
+                                                                                                                                              
+Sensitivity/Recall = 0.888                                                                                                                    
+                                                                                                                                              
+PPV/Specificity = 0.547                                                                                                                       
+                                                                                                                                              
+==========================                                                                                                          
+                                                                                                                                              
+                                                                                                                                              
+                                                                                               
+                            

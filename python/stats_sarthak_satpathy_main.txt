@@ -1,0 +1,17 @@
+Examining "Date" category for output of deid_sarthak_satpathy_main.py script : date_main.phi                                                                                                                 
+                                                                                                                                              
+                                                                                                                                              
+==========================                                                                                                                    
+                                                                                                                                              
+Num of true positives = 440                                                                                                                   
+                                                                                                                                              
+Num of false positives = 1499                                                                                                                 
+                                                                                                                                              
+Num of false negatives = 42                                                                                                                   
+                                                                                                                                              
+Sensitivity/Recall = 0.913                                                                                                                    
+                                                                                                                                              
+PPV/Specificity = 0.75                                                                                                                        
+                                                                                                                                              
+==========================                                                                                                                    
+                             
