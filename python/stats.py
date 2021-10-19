@@ -1,4 +1,3 @@
-
 def are_overlapped(gstart,gend,tstart,tend):
     return ( (( gstart <= tend )  and (gstart >= tstart)) or 
             ((gend <= tend) and (gend >= tstart)) or 
@@ -254,4 +253,3 @@ if __name__== "__main__":
     
     
     run_stats(sys.argv[1], sys.argv[2], sys.argv[3])
-    
